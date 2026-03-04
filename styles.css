@@ -1,0 +1,24 @@
+:root {
+    --primario: #0070f3;
+    --oscuro: #111;
+    --gris: #666;
+    --fondo: #fafafa;
+}
+
+body { font-family: 'Inter', sans-serif; margin: 0; color: var(--oscuro); background: var(--fondo); line-height: 1.6; }
+
+nav { display: flex; justify-content: space-between; padding: 2rem 10%; align-items: center; background-color: #ddd9d9;}
+nav ul { list-style: none; display: flex; gap: 2rem; }
+nav a { text-decoration: none; color: var(--oscuro); font-weight: 500; }
+.sub-titulo { padding-left:820px ;}
+.hero { padding: 100px 10%; text-align: center; }
+.hero h1 { font-size: 3.5rem; margin-bottom: 1rem; }
+.hero span { color: var(--primario); }
+.cta { background: var(--primario); color: white; padding: 12px 24px; border-radius: 5px; text-decoration: none; }
+
+.grid-proyectos { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; padding: 0 10%; }
+.card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.img-placeholder { background: #eee; height: 180px; border-radius: 4px; margin-bottom: 1rem; }
+.project-image { width: 100%; height: 100%; object-fit: cover; border-radius: 4px; }
+
+footer { text-align: center; padding: 50px; margin-top: 50px; border-top: 1px solid #ddd; }
